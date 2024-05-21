@@ -18,9 +18,9 @@ This guide will serve as a guide for how to implement ROS for students at St. Ol
 2. **ROS Installation on Remote PC**
   - Install all the required ROS software on the remote PC.
   - Follow the installation guide: https://docs.ros.org/en/humble/Installation.html or run the following script:
-'''
+```bash
   ./ROS-install.sh
-'''
+```
 3. **Ubuntu and ROS Installation on Raspberry Pi**
   - Install Ubuntu and ROS packages on the Raspberry Pi. We used a TV to make setup easier.
   - Follow the guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/
@@ -28,9 +28,11 @@ This guide will serve as a guide for how to implement ROS for students at St. Ol
 4. **Configure CR Board**
   - Configure the CR board via the Raspberry Pi.
   - Follow the guide: https://emanual.robotis.com/docs/en/platform/turtlebot3/opencr_setup/#opencr-setup or run the following script on your Raspberry Pi after ensuring that the OpenCR board is plugged into it:
-'''
+
+```bash
   ./OpenCR-setup.sh
-'''
+```
+
 
 5. **Bring up the Robot**
   - Bring up the TurtleBot3 robot.
